@@ -1,6 +1,5 @@
-FROM centos:7
+FROM busybox
 MAINTAINER hong
 WORKDIR /usr
-RUN yum install -y vim
 
 CMD /bin/bash
